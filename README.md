@@ -3,10 +3,8 @@
 ## Table of Contents
 1. [ Description ](#description)
 2. [ Installation ](#installation)
-3. [ Usage ](#usage)
-4. [ Contributors ](#contributors)
-5. [ Credits ](#credits)
-6. [ License ](#license)
+3. [ Credits ](#credits)
+4. [ License ](#license)
 
 <a name="description"></a>
 ## Description
@@ -28,19 +26,9 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 * Open the repository with **sublime text 3**
 * Open file **__main__.py** <br> 
 * Run the program by `Cntrl+B` <br>
-
-
-<a name="usage"></a>
-## Usage
-
-
-<a name="contributors"></a>
-## Contributors
-- Masum Bhuiyan <masumbhuiyan577@gmail.com>
-
+---
 <a name="credits"></a>
 ## Credits
-
-
+- Masum Bhuiyan <masumbhuiyan577@gmail.com>
 <a name="license"></a>
 ## Lincense ![license](https://img.shields.io/badge/license-MIT-green)
