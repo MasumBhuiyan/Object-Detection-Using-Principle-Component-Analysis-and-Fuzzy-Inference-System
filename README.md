@@ -1,5 +1,14 @@
 # Object Detection Using Principle Component Analysis and Fuzzy Inference System ![Completeness](https://img.shields.io/badge/completeness-0.5-green.svg) ![Language](https://img.shields.io/badge/python-3.7-blue.svg)
 
+## Table of Contents
+1. [ Description ](#description)
+2. [ Installation ](#installation)
+3. [ Usage ](#usage)
+4. [ Contribution ](#contribution)
+5. [ Credits ](#credits)
+6. [ License ](#license)
+
+<a name="description"></a>
 ## Description: 
 An object detection system that uses a combination of feature extraction technique i.e **PCA** and fuzzy inference engine. It is a classification model that determines the similarity between the train images and test images. It selects **k** principle components from a set of train images, calculates their weights, then models the pca to a set of test images. A fuzzy inference engine is built over the weights. The fuzzy output classifies the test images into two classes zero-one. 1 indicates the existence of a certein property, 0 otherwise. <br><br>
 **Applications:**
@@ -7,42 +16,7 @@ An object detection system that uses a combination of feature extraction techniq
 * computer vision
 * pattern finding
 
-**Directory Structure**<br>
-```
-.
-├── detection
-│   ├── data
-│   │   ├── __init__.py
-│   │   └── __init__.pyc
-│   ├── evaluation
-│   │   ├── evaluation.py
-│   │   └── __init__.py
-│   ├── fis
-│   │   └── __init__.py
-│   ├── __init__.py
-│   ├── __main__.py
-│   ├── pca
-│   │   ├── __init__.py
-│   │   └── pca.py
-│   └── resources
-│       ├── testdata
-│       │   ├── image1.jpeg
-│       │   ├── image2.jpeg
-│       │   ├── image3.jpeg
-│       │   ├── image4.jpeg
-│       │   └── image5.jpeg
-│       └── traindata
-│           ├── image1.jpeg
-│           ├── image2.jpeg
-│           ├── image3.jpeg
-│           ├── image4.jpeg
-│           └── image5.jpeg
-├── LICENSE
-└── README.md
-```
-
-## Table of Contents
-
+<a name="installation"></a>
 ## Installation ![os](https://img.shields.io/badge/os-linux-orange) ![editor](https://img.shields.io/badge/sublime_text-3-blue)
 * Install ![cmake](https://img.shields.io/badge/python-3.7-blue) if not installed. <br>
 To install open terminal `Ctrl+Alt+T` and type the following commands<br>
@@ -55,10 +29,18 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 * Open file **__main__.py** <br> 
 * Run the program by `Cntrl+B` <br>
 
+
+<a name="usage"></a>
 ## Usage:
 
-## Contributing
 
+<a name="contribution"></a>
+## Contribution
+
+
+<a name="credits"></a>
 ## Credits
 
+
+<a name="license"></a>
 ## Lincense
