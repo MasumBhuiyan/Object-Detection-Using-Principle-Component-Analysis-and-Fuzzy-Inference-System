@@ -1,20 +1,13 @@
 # Object Detection Using Principle Component Analysis and Fuzzy Inference System ![Completeness](https://img.shields.io/badge/completeness-0.5-green.svg) ![Language](https://img.shields.io/badge/python-3.7-blue.svg)
 
 ## Description: 
-An object detection system that uses a combination of feature extraction technique i.e **PCA** and fuzzy inference engine. <br> <br>
-**Algorithm** <br>
-* Read, resize, and pixelize a set of train images
-* Convert each train image into a column vector 
-* Make a matrix using the column vectors where each column is an train image
-* Calculate pca over the previously formed matrix
-* Calculate a weight matrix of the train images using the pca matrix
-* Read, resize, and pixelize a set of test images
-* Calculate another weight matrix for test images using the above calculated pca matrix
-* Define a fuzzy inference system over weight values (If-else rules)
-* Pass the weight matrix of the test images to fuzzy inference system
-* take the fuzzy output and calculate accuracy of the model
+An object detection system that uses a combination of feature extraction technique i.e **PCA** and fuzzy inference engine. It is a classification model that determines the similarity between the train images and test images. It selects **k** principle components from a set of train images, calculates their weights, then models the pca to a set of test images. A fuzzy inference engine is built over the weights. The fuzzy output classifies the test images into two classes zero-one. 1 indicates the existence of a certein property, 0 otherwise. <br><br>
+**Applications:**
+* facial recognition
+* computer vision
+* pattern finding
 
- **Directory Structure**<br>
+**Directory Structure**<br>
 ```
 .
 ├── detection
