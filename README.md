@@ -8,7 +8,7 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 > `$ python --version` <br>
 * Clone the repository by the following command <br>
 > `git clone [repository url]` <br>
-* Open the repository by ![editor](https://img.shields.io/badge/sublime_text-3-blue) <br>
+* Open the repository with ![editor](https://img.shields.io/badge/sublime_text-3-blue) <br>
 * Open file **__main__.py** <br> 
 * Run the program by `Cntrl+B` <br>
 
