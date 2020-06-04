@@ -1,12 +1,21 @@
 from data import io
 from pca import pca
-from evaluation import evaluation
 from fis import fuzzification
+from evaluation import evaluation
 
-U, shi, train_weight = pca.train_pca(20, 2, (32,32), "./resources/trainset/image")
-test_weight = pca.test_pca(20,(32,32),"./resources/testset/image", U, shi, train_weight)
+components = 2
+image_size = (32,32)
+trainset_size = 20
+testset_size = 20
 
-print("PCA accuracy:")
-evaluation.accuracy(20, train_weight, test_weight)
-print("PCA + Fuzzy accuracy:")
-fuzzification.Run(20,test_weight)
+train_directory = "./resources/trainset/image"
+test_directory =  "./resources/testset/image"
+
+def run_pca():
+	U, shi, train_weight = pca.train_pca(trainset_size, components, image_size, train_directory)
+	test_weight = pca.test_pca(testset_size,image_size,test_directory, U, shi, train_weight)
+	evaluation.accuracy(testset_size, train_weight, test_weight)
+	return train_weight, test_weight
+
+train_weight, test_weight = run_pca()
+fuzzification.Run(testset_size,test_weight)

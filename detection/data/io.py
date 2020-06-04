@@ -21,7 +21,7 @@ pixelize(image)
 	- gives pixel values of the image
 '''
 def pixelize(image):
-	return  np.array(image.getdata()).reshape(image.size[0], image.size[1], 3)
+	return  np.array(image.getdata()).reshape(image.size[0], image.size[1], 3) / 255
 
 '''
 load(n, image_size, directory)

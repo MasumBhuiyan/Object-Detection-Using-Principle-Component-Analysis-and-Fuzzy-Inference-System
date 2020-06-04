@@ -37,4 +37,4 @@ def accuracy(n, train_weight, test_weight):
             val = 1
         matches += val
     accuracy = matches / n * 100.0
-    print("Accuracy:", accuracy, "%")
+    print("PCA accuracy:", accuracy, "%")

@@ -63,7 +63,7 @@ def test_pca(n, image_size, directory, U, shi, train_weight):
     print("testset shape:", testset.shape)
     
     testset = flatten(testset)
-    print("testset shape after flattening:", testset.shape)
+    print("testset shape after flattening::", testset.shape)
     
     test_weight = weight(U, testset, shi)
     return test_weight
