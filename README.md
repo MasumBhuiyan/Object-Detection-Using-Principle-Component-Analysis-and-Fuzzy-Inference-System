@@ -43,4 +43,4 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 
 
 <a name="license"></a>
-## Lincense & copyright ![license](https://img.shields.io/badge/license-MIT-green)
+## Lincense ![license](https://img.shields.io/badge/license-MIT-green)
