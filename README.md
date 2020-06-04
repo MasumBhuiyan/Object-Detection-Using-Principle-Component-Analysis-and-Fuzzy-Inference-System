@@ -18,14 +18,14 @@ An object detection system that uses a combination of feature extraction techniq
 
 <a name="installation"></a>
 ## Installation ![os](https://img.shields.io/badge/os-linux-orange) ![editor](https://img.shields.io/badge/sublime_text-3-blue)
-* Install ![cmake](https://img.shields.io/badge/python-3.7-blue) if not installed. <br>
+* Install **python 3** if not installed. <br>
 To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 > `$ sudo apt-get update` <br>
 > `$ sudo apt-get install python3.7` <br>
 > `$ python --version` <br>
 * Clone the repository by the following command <br>
 > `git clone [repository url]` <br>
-* Open the repository with ![editor](https://img.shields.io/badge/sublime_text-3-blue) <br>
+* Open the repository with **sublime text 3**
 * Open file **__main__.py** <br> 
 * Run the program by `Cntrl+B` <br>
 
