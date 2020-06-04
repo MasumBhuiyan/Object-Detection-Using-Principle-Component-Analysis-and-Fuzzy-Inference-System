@@ -1,4 +1,4 @@
-# Object Detection Using Principle Component Analysis and Fuzzy Inference System ![Completeness](https://img.shields.io/badge/completeness-0.5-green.svg) ![Language](https://img.shields.io/badge/python-3.7-blue.svg)
+# Object Detection Using Principle Component Analysis and Fuzzy Inference System ![Completeness](https://img.shields.io/badge/completeness-0.6-green.svg) ![Language](https://img.shields.io/badge/python-3.7-blue.svg)
 
 ## Table of Contents
 1. [ Description ](#description)
