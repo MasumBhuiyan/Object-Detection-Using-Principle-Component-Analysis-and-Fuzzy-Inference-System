@@ -15,7 +15,7 @@ An object detection system that uses a combination of feature extraction techniq
 * facial recognition
 * computer vision
 * pattern finding
-
+---
 <a name="installation"></a>
 ## Installation ![os](https://img.shields.io/badge/os-linux-orange) ![editor](https://img.shields.io/badge/sublime_text-3-blue)
 * Install **python 3** if not installed. <br>
@@ -36,7 +36,7 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 
 <a name="contributors"></a>
 ## Contributors
-
+- Masum Bhuiyan <masumbhuiyan577@gmail.com>
 
 <a name="credits"></a>
 ## Credits
