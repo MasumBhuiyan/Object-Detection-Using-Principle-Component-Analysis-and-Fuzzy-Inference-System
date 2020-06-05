@@ -9,7 +9,7 @@
 
 <a name="description"></a>
 ## Description
-An object detection system that uses a combination of feature extraction technique i.e **PCA** and fuzzy inference engine. It is a classification model that determines the similarity between the train images and test images. It selects **k** principle components from a set of train images, calculates their weights, then models the pca to a set of test images. A fuzzy inference engine is built over the weights. The fuzzy output classifies the test images into two classes zero-one. 1 indicates the existence of a certein property, 0 otherwise. <br><br>
+It is an object detection system that uses a combination of feature extraction technique and fuzzy inference engine. We choose **principle component analysis** for feature extraction. The system is basically a classification model that determines the similarity between the train images and test images. It selects **k** principle components from a set of train images, calculates their weights, then models the pca to a set of test images. A fuzzy inference engine is built over the weights. The fuzzy output classifies the test images into two classes zero-one. 1 indicates the existence of a certein property, 0 otherwise. <br><br>
 **Applications**
 * facial recognition
 * computer vision
