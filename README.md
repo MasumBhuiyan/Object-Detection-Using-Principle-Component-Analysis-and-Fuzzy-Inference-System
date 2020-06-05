@@ -32,7 +32,6 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 - Masum Bhuiyan
 - B.Sc. in Computer Science (Expected September 2020)
 - Jahangirnagar University, Dhaka, Bangladesh
-- Email me: <masumbhuiyan577@gmail.com>
-- Reach me @[LinkedIn](https://www.linkedin.com/masumbhuiyan577)
+- Reach me @[LinkedIn](https://www.linkedin.com/in/masumbhuiyan577/)
 <a name="license"></a>
 ## Lincense ![license](https://img.shields.io/badge/license-MIT-green)
