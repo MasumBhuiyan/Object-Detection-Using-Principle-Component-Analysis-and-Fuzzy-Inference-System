@@ -51,25 +51,6 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 ## Lincense ![license](https://img.shields.io/badge/license-MIT-green) <br>
 MIT License
 
-Copyright (c) 2020 MasumBhuiyan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-<a name="conclusion"></a>
-## Conclusion
-Checkout the [wiki](https://www.demo.com) for detail description of the project.
-
-<a name="license"></a>
-## Lincense ![license](https://img.shields.io/badge/license-MIT-green) <br>
-MIT License
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
