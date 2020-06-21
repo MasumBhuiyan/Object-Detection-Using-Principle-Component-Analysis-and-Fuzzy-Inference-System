@@ -29,6 +29,22 @@ To install open terminal `Ctrl+Alt+T` and type the following commands<br>
 ---
 <a name="credits"></a>
 ## Credits
-- Masum Bhuiyan <masumbhuiyan577@gmail.com>
+
+<table style="width:100%">
+  <tr>
+    <td> 
+      <b>Masum Bhuiyan</b> <br>
+      Jahangirnagar University <br>
+      Dhaka, Bangladesh
+    </td>
+  </tr>
+  <tr>
+    <td> 
+      <b>Omor Faruque Abir</b> <br>
+      Jahangirnagar University <br>
+      Dhaka, Bangladesh
+    </td>
+  </tr>
+</table>
 <a name="license"></a>
 ## Lincense ![license](https://img.shields.io/badge/license-MIT-green)
