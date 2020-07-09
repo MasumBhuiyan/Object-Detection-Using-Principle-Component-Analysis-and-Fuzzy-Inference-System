@@ -2,7 +2,7 @@ from data import io
 from pca import pca
 from fis import fuzzification
 from evaluation import evaluation
-
+from ga import geneticalgorithm as ga
 components = 2
 image_size = (32,32)
 trainset_size = 20
@@ -18,4 +18,7 @@ def run_pca():
 	return train_weight, test_weight
 
 train_weight, test_weight = run_pca()
-fuzzification.Run(testset_size,test_weight)
+#fuzzification.Run(testset_size,test_weight)
+input('Press enter to run GA.\n')
+ga.Run(testset_size,test_weight)
+input('program finished, press enter to quit.\n')
