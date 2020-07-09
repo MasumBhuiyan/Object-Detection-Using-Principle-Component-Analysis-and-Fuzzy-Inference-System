@@ -28,18 +28,20 @@ def engine(mf1, mf2):
 
 def fuzzy_decision(C, LC, D):
     FD = (0.25 * C + 0.5 * LC + 0.75 * D)
-    print("FD:", FD)
+    #print("FD:", FD)
     if FD > 0.25:
         return 1
     return 0
 
-def Run(n, test_weight):
+def Run(solution,n, test_weight):
+    c1 = solution[:len(solution)//2]
+    c2 = solution[len(solution)//2:]
     matches = 0
     test_weight = abs(test_weight)
     for i in range(n):
         v1 = test_weight[0,i]
         v2 = test_weight[1,i]
-        print(v1, v2)
+        #print(v1, v2)
         mf1 = fuzzy_membership(v1,c1)
         mf2 = fuzzy_membership(v2,c2)
         C, LC, D = engine(mf1, mf2)
@@ -51,4 +53,5 @@ def Run(n, test_weight):
             yes = 1
         matches += yes
     accuracy = matches / n * 100.0
-    print("Accuracy:", accuracy, "%")
+    #print("Accuracy:", accuracy, "%")
+    return accuracy
